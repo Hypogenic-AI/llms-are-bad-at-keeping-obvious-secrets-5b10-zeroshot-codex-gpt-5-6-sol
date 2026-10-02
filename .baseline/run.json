@@ -1,0 +1,11 @@
+{
+  "method": "zeroshot-codex",
+  "provider": "codex",
+  "model": "gpt-5.6-sol",
+  "command": "codex exec --yolo --model gpt-5.6-sol --json",
+  "timeout_seconds": null,
+  "workspace": "llms-are-bad-at-keeping-obvious-secrets-5b10-zeroshot-codex-gpt-5-6-sol",
+  "github_url": "https://github.com/Hypogenic-AI/llms-are-bad-at-keeping-obvious-secrets-5b10-zeroshot-codex-gpt-5-6-sol",
+  "started_at": "2026-10-02T18:27:35Z",
+  "status": "running"
+}
