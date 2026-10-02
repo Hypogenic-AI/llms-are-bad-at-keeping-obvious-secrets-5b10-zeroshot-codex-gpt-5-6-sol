@@ -7,5 +7,10 @@
   "workspace": "llms-are-bad-at-keeping-obvious-secrets-5b10-zeroshot-codex-gpt-5-6-sol",
   "github_url": "https://github.com/Hypogenic-AI/llms-are-bad-at-keeping-obvious-secrets-5b10-zeroshot-codex-gpt-5-6-sol",
   "started_at": "2026-10-02T18:27:35Z",
-  "status": "running"
+  "status": "completed",
+  "completed_at": "2026-10-02T19:24:56Z",
+  "return_code": 0,
+  "elapsed_seconds": 3439.7852642536163,
+  "timed_out": false,
+  "paper_pdf": "paper_draft/main.pdf"
 }

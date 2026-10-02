@@ -1,0 +1,51 @@
+\newcommand{\PlainAcc}{54.2}
+\newcommand{\PlainLo}{39.6\%}
+\newcommand{\PlainHi}{68.8\%}
+\newcommand{\PlainP}{0.665}
+\newcommand{\OutlineAcc}{50.0}
+\newcommand{\OutlineLo}{39.6\%}
+\newcommand{\OutlineHi}{60.4\%}
+\newcommand{\OutlineBinomP}{1.000}
+\newcommand{\DistractorAcc}{41.7}
+\newcommand{\DistractorLo}{29.2\%}
+\newcommand{\DistractorHi}{54.2\%}
+\newcommand{\DistractorP}{0.312}
+\newcommand{\DecoyAcc}{39.6}
+\newcommand{\DecoyLo}{27.1\%}
+\newcommand{\DecoyHi}{52.1\%}
+\newcommand{\DecoyP}{0.193}
+\newcommand{\OutlineDiff}{--4.2}
+\newcommand{\OutlineDiffLo}{--22.9}
+\newcommand{\OutlineDiffHi}{14.6}
+\newcommand{\OutlineP}{0.836}
+\newcommand{\DistractorDiff}{--12.5}
+\newcommand{\DecoyDiff}{--14.6}
+\newcommand{\MainFindingSentence}{the plain positive anchor itself is statistically indistinguishable from chance, so the data do not identify an outline-specific reduction}
+\newcommand{\BehaviorResultParagraph}{The plain condition is only 54.2\%, and its interval includes chance. Outline accuracy is exactly 50.0\%; distractor and decoy point estimates are below chance, but neither differs significantly from chance. Thus the planned positive anchor failed in this constrained-premise protocol}
+\newcommand{\ConfoundConclusion}{neither a planning benefit nor a dilution account is identified: the assay is at a behavioral floor before either explanation can be separated}
+\newcommand{\LiteralCompliance}{100.0}
+\newcommand{\LiteralCount}{zero}
+\newcommand{\MinWords}{265.3}
+\newcommand{\MaxWords}{285.7}
+\newcommand{\QualityGap}{0.17}
+\newcommand{\ProbeAcc}{20.8}
+\newcommand{\ProbeLayer}{48}
+\newcommand{\ProbeQuartile}{2}
+\newcommand{\ProbeFinalAcc}{9.7}
+\newcommand{\ProbeRho}{0.059}
+\newcommand{\ProbeP}{0.623}
+\newcommand{\ProbeAboveChanceDescription}{no depth--quartile cell robustly above chance after accounting for the 28 inspected cells}
+\newcommand{\ProbeInterpretation}{The isolated maximum has an uncorrected binomial $p=0.047$, but it does not survive even a simple multiplicity correction, final-quartile performance is at chance, and behavioral correlation is absent}
+\newcommand{\AblationAcc}{6.3}
+\newcommand{\AblationLo}{0.0\%}
+\newcommand{\AblationHi}{12.5\%}
+\newcommand{\RandomAcc}{56.3}
+\newcommand{\RandomLo}{43.8\%}
+\newcommand{\RandomHi}{68.8\%}
+\newcommand{\AblationDiff}{--50.0}
+\newcommand{\AblationP}{<0.001}
+\newcommand{\AblationQuality}{1.23}
+\newcommand{\RandomQuality}{4.02}
+\newcommand{\AblationConclusion}{Projection of the prompt contrast catastrophically damages generation (98 versus 273 mean words, with many malformed or multilingual token sequences). Its below-chance detection is therefore a distributional collapse, not evidence of selective secret removal}
+\newcommand{\DiscussionParagraph}{The central result is an informative failure of identification. Although earlier work found strong leakage from Gemma~3 12B when the model freely chose a story, our plain condition fixes a premise and produces only 54.2\% detection. The most plausible design-level difference is that even a short premise already constrains content selection, leaving little measurable leakage for a fuller outline to remove. The data therefore do not support the headline causal hypothesis, but neither do they show that plans are ineffective when leakage is present}
+\newcommand{\ConclusionParagraph}{Under fixed premises, Gemma~3 12B did not provide the required above-chance leakage anchor. Outlines, irrelevant context, and decoys all yielded estimates compatible with chance, and secret identity was not robustly decoded from story-period residual states. The correct conclusion is not that outlines solve leakage, but that premise-constrained generation can create a floor that makes the comparison uninformative}
